@@ -35,4 +35,5 @@ if answer.lower() == "power supply unit":
 else:
     print("Sorry, that's wrong\n")
 
-print ("Well done you have scored " + str(score) + " points\n\n")
+print ("Well done you have scored " + str(score) + " points\n")
+print ("You got " + str((score / 4) * 100) + "%\n\n")
